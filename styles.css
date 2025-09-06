@@ -1,23 +1,67 @@
- body {
-            font-family: Arial, sans-serif;
-            background-color: beige;
-            line-height: 1.6;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .main-info {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-        }
-        .main-info h1 {
-            margin: 0;
-        }
-        .hobbies, .career, .course, .fun-fact {
-            background: #e7e7e7;
-            padding: 15px;
-            margin-bottom: 10px;
-        }
+body {
+   font-family: Arial, sans-serif;
+   background-color: darkslategray;
+   line-height: 1.6;
+}
+
+.image-layout {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.container {
+   width: 80%;
+   margin: auto;
+   overflow: hidden;
+}
+
+.main-info {
+   background: ivory;
+   color: black;
+   padding: 20px;
+   font-size: larger;
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.main-info h1 {
+   margin: 0px;
+}
+
+ul {
+   list-style-type: square;
+}
+
+.shortIntro, .intro, .hope, .activity, .funFact {
+   background: #e7e7e7;
+   padding: 20px;
+   max-width: 800px;
+   margin: 0 auto 10px auto;
+   border-bottom: 2px solid #ccc;
+}
+
+.funFact {
+   border-bottom: none;
+   padding: 20px;
+   max-width: 800px;
+   margin: 0 auto 10px auto;
+   border-bottom: none;
+   overflow: hidden;
+}
+.funFact img{
+    float: right;
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.shortIntro {
+   font-weight: bold;
+   border-top: 2px solid #ccc;
+}
+.date{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
